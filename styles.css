@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,200&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;    /* background: linear-gradient(0deg, #0077b6 0%, #90e0ef 100%); */
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+    background-image: url('tripic.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  
+  /* img {
+    border-radius: 50%;
+    width: 100px;
+  } */
+  
+  .button {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 50%;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px 1px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(84, 208, 212);
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+  }
+  

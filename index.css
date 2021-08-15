@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,200&display=swap');
+
+:root {
+  --primary-color: #60a5fa;
+  --off-white: white;
+  --hover: #e6e6e6;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;    /* background: linear-gradient(0deg, #0077b6 0%, #90e0ef 100%); */
+    background: linear-gradient(#0077b6, #90e0ef);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  color: var(--off-white);
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  padding: 1rem 1rem;
+  display: inline;
+}
+
+nav a {
+  color: var(--off-white);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: large;
+
+}
+nav li a:hover {
+  color: #1e3a8a;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.main {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+}
+
+input, label{
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+input[type="number"] {
+  width: 90%;
+  margin: 10px;
+  height: 40px;
+}
+label {
+  font-weight: 700;
+}
+p {
+  font-weight: 900;
+}
+button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--hover);
+  transition: all 0.2s;
+}
+.output {
+  font-weight: 900;
+  color: red;
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.footer a {
+  margin: 3px;
+  padding: 3px;
+}
+.footer i {
+  color: #ffffff;
+}
+
+footer i:hover {
+  color: #1e3a8a;
+}
+
+.backbtn {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  input[type="number"] {
+    width: 70%;
+    margin: 10px;
+    height: 40px;
+  }
+  nav {
+    display: none;
+  }
+  .backbtn {
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--off-white);
+    font-weight: 900;
+    font-size: large;
+  }
+  .backbtn:hover {
+    color: #1e3a8a;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+}
