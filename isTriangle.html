@@ -20,15 +20,17 @@
     <a class="backbtn" href="./index.html">Back</a>
 
     <div class="main">
-        <h1>Calulate area of traingle</h1>
-        <h3>Formula for Area of triangle is 1/2(base*height)</h2>
-
-        <label> Base = </label><input type="number" class="inputs" min="0" />
-        <label> Height = </label><input type="number" class="inputs" min="0" />
-
-        <button id="calculateBtn">Calculate Area</button>
+        <h1>is Triangle?</h1>
+        <h3>Hint: Sum of angles should be 180° to form a traingle</h3>
+        
+        <label for="angle-1">Angle-1</label><input type="number" class="angle-input" required />
+        <label for="angle-2">Angle-2</label><input type="number" class="angle-input" required />
+        <label for="angle-3">Angle-3</label><input type="number" class="angle-input" required />
+        
+        <button id="isTraingle-btn">is Triangle?</button>
+        
         <div id="output" class="output"></div>
-      </div>
-      <script src="./area.js"></script>
+    </div>
+      <script src="./isTriangle.js"></script>
       </body>
       </html>
